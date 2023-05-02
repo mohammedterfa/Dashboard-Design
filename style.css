@@ -598,6 +598,7 @@ main .recent-orders a{
 @media  screen and (max-width: 768px){
     .container{
         width: 100%;
+        grid-template-columns: 1fr;
     }
 
     aside{
@@ -674,6 +675,30 @@ main .recent-orders a{
         margin: 0;
         z-index: 2;
         box-shadow: 0 1rem 1rem var(--color-light);
+    }
+
+    .right .top .theme-toggler{
+        width: 4.4rem;
+        position: absolute;
+        left: 66%;
+    }
+
+    .right .profile .info{
+        display: none;
+
+    }
+
+    .right .top button{
+        display: inline-block;
+        background: transparent;
+        cursor: pointer;
+        color: var(--color-dark);
+        position: absolute;
+        left: 1rem;
+    }
+
+    .right .top button span{
+        font-size: ;
     }
 
        
